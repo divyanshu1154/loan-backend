@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 const corsOptions = {
-  origin: 'https://loan-frontend-b1k4.onrender.com/',
+  origin: 'https://loan-frontend-b1k4.onrender.com',
   credentials: true, 
 };
 app.use(cors(corsOptions)); 
